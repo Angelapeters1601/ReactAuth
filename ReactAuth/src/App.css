@@ -1,0 +1,135 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.home a {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: aqua;
+}
+
+.home h2 {
+  font-size: 30px;
+}
+
+.home p {
+  font-size: 20px;
+}
+
+.login {
+  position: relative;
+}
+
+.login a {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: aqua;
+}
+
+.login h2 {
+  font-size: 30px;
+  margin-bottom: 70px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  margin-left: 28%;
+  background: rgba(0, 0, 0, 1);
+  border-radius: 7px;
+  padding: 30px;
+  margin-bottom: 70px;
+}
+
+.form label {
+  display: flex;
+  font-size: 20px;
+  color: aqua;
+  padding: 5px;
+  margin-bottom: -3px;
+  margin-left: 15%;
+}
+
+.form input {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 15%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.form button{
+  width: 100px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 15%;
+  padding: 8px;
+}
+
+.signup h2 {
+font-size: 30px;
+}
+
+.signup a {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: aqua;
+}
+
+.signup form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28%;
+  width: 500px;
+  background: rgba(0, 0, 0, 1);
+  border-radius: 7px;
+  padding: 30px;
+  margin-bottom: 70px;
+}
+
+.signup input {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 15%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.signup label {
+  display: flex;
+  font-size: 20px;
+  margin-left: 15%;
+  color: aqua;
+  padding: 5px;
+}
+
+.signup button {
+  background-color: white;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 15%;
+  padding: 8px;
+}
